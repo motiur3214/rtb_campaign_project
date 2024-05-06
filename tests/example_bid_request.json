@@ -1,0 +1,188 @@
+{
+  "id": "mySampleRequestId",
+  "imp": [
+    {
+      "id": "1",
+      "banner": {
+        "w": 300,
+        "h": 250,
+        "pos": 1,
+        "format": [
+          {
+            "w": 320,
+            "h": 480
+          },
+          {
+            "w": 728,
+            "h": 90
+          },
+          {
+            "w": 320,
+            "h": 50
+          }
+        ]
+      },
+      "displaymanager": "GOOGLE",
+      "instl": 1,
+      "tagid": "1234567890",
+      "bidfloor": 0.05,
+      "bidfloorcur": "USD",
+      "secure": 1,
+      "exp": 3600,
+      "metric": [
+        {
+          "type": "click_through_rate",
+          "value": 0.2,
+          "vendor": "EXCHANGE"
+        },
+        {
+          "type": "viewability",
+          "value": 0.98,
+          "vendor": "EXCHANGE"
+        }
+      ],
+      "ext": {
+        "billing_id": [
+          "987654321",
+          "456789012"
+        ],
+        "publisher_settings_list_id": [
+          "111222333",
+          "444555666"
+        ],
+        "allowed_vendor_type": [
+          123,
+          456,
+          789
+        ],
+        "ampad": 1,
+        "creative_enforcement_settings": {
+          "policy_enforcement": 1,
+          "scan_enforcement": 0,
+          "publisher_blocks_enforcement": 1
+        },
+        "auction_environment": 1
+      }
+    }
+  ],
+  "app": {
+    "name": "com.example.app",
+    "bundle": "com.example.app",
+    "publisher": {
+      "id": "pub-123456789",
+      "ext": {
+        "country": "US"
+      }
+    },
+    "content": {
+      "url": "https://example.com/app",
+      "userrating": "4.5",
+      "livestream": 0,
+      "language": "en"
+    },
+    "storeurl": "https://play.google.com/store/apps/details?id=com.example.app",
+    "ext": {
+      "inventorypartnerdomain": "examplepartner.com"
+    }
+  },
+  "device": {
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.1",
+    "geo": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "country": "Bangladesh",
+      "city": "San Francisco",
+      "zip": "94102"
+    },
+    "make": "Apple",
+    "model": "iPhone 12",
+    "os": "iOS",
+    "osv": "15.0",
+    "devicetype": 1,
+    "ifa": "12345678-1234-5678-1234-567812345678",
+    "lmt": 0,
+    "w": 375,
+    "h": 667,
+    "pxratio": 2,
+    "ext": {
+      "user_agent_data": {
+        "platform": {
+          "brand": "Apple",
+          "version": [
+            "15.0"
+          ]
+        },
+        "mobile": 1,
+        "model": "iPhone 12",
+        "browsers": [
+          {
+            "brand": "Mozilla",
+            "version": [
+              "5",
+              "0"
+            ]
+          },
+          {
+            "brand": "AppleWebKit",
+            "version": [
+              "605",
+              "1",
+              "15"
+            ]
+          },
+          {
+            "brand": "Version",
+            "version": [
+              "15",
+              "0"
+            ]
+          },
+          {
+            "brand": "Mobile Safari",
+            "version": [
+              "604",
+              "1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "user": {
+    "id": "user123",
+    "ext": {}
+  },
+  "at": 1,
+  "tmax": 1000,
+  "cur": [
+    "USD"
+  ],
+  "bcat": [
+    "IAB1-2"
+  ],
+  "source": {
+    "ext": {
+      "omidpn": "Google",
+      "omidpv": "afma-sdk-a-v123456789.987654321.1",
+      "schain": {
+        "complete": 1,
+        "nodes": [
+          {
+            "asi": "google.com",
+            "sid": "pub-123456789",
+            "hp": 1
+          }
+        ],
+        "ver": "1.0"
+      }
+    }
+  },
+  "ext": {
+    "google_query_id": "ABC123DEF456GHI789",
+    "fcap_scope": 3,
+    "privacy_treatments": {
+      "allow_user_data_collection": 1
+    }
+  }
+}

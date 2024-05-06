@@ -1,0 +1,26 @@
+# Vendor directory (assuming Composer is used)
+vendor/
+
+# IDE specific configuration files
+.idea/
+*.iml
+
+# dotenv file for environment variables
+.env
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+
+# Backups
+backups/
+
+# Editor temporary/backup files
+*~
+*.swp
+
+# Hidden files on Unix-based OS
+.DS_Store
+.phpunit.result.cache
